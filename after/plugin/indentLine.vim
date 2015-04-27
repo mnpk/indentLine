@@ -11,8 +11,8 @@ endif
 let g:indentLine_loaded = 1
 
 
-let g:indentLine_char = get(g:,'indentLine_char',(&encoding ==# "utf-8" && &term isnot# "linux" ? '¦' : '|'))
-let g:indentLine_first_char = get(g:,'indentLine_first_char',(&encoding ==# "utf-8" && &term isnot# "linux"  ? '¦' : '|'))
+let g:indentLine_char = get(g:,'indentLine_char',(&encoding ==# "utf-8" && &term isnot# "linux" ? '┊' : '|'))
+let g:indentLine_first_char = get(g:,'indentLine_first_char',(&encoding ==# "utf-8" && &term isnot# "linux"  ? '┊' : '|'))
 let g:indentLine_indentLevel = get(g:,'indentLine_indentLevel',10)
 let g:indentLine_enabled = get(g:,'indentLine_enabled',1)
 let g:indentLine_fileType = get(g:,'indentLine_fileType',[])
